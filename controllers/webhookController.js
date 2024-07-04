@@ -20,4 +20,4 @@ route.post('/webhook', (req, res) => {
 
 
 
-export { route }
+export default route
