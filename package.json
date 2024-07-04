@@ -4,7 +4,7 @@
   "description": "first project about whatsapp api, that i'm metting it. My goal is create a bot with it.  ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "lincoln H",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "express": "^4.19.2",
     "node-cache": "^5.1.2"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
 }
